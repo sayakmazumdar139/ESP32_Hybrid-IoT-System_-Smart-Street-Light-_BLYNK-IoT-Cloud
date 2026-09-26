@@ -26,6 +26,8 @@ LDR Sensor → ESP32 Edge Processing → Decision Logic → Relay → 26-LED Lam
 
 ESP32 ↔ Wi-Fi ↔ Blynk Cloud → Monitoring / Manual Override
 
+
+
 **Live Demo Video 👇👇**
 
 https://youtu.be/ZFBkcDMe2nc?si=Eg5Db_IkmxV2wtVp
