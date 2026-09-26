@@ -38,7 +38,7 @@ https://youtu.be/ZFBkcDMe2nc?si=Eg5Db_IkmxV2wtVp
 
 **⚙️ Task-06 Firmware — Step-by-Step Working / Operation**
 
-**### 1️⃣ Blynk Configuration**
+**1️⃣ Blynk Configuration**
 
 ```cpp
 #define BLYNK_TEMPLATE_ID   "YOUR_TEMPLATE_ID"
@@ -525,6 +525,8 @@ V2 → LDR Value
 V3 → System Status
 ```
 
-### 🎯 One-line firmware explanation
+**SUMMARY**
 
-> **The firmware continuously reads the LDR, performs the lighting decision locally on the ESP32, controls the relay accordingly, and simultaneously provides Blynk-based monitoring and manual remote control.**
+This project demonstrates a smart IoT lighting system using an ESP32, LDR sensor, relay, and 26-LED lamp. The LDR continuously senses ambient light, while the ESP32 performs local edge processing to determine whether the environment is dark or bright and automatically controls the lamp through the relay.
+
+The system also integrates Blynk Cloud through Wi-Fi for real-time LDR monitoring and provides AUTO and MANUAL operating modes. In AUTO mode, the ESP32 independently makes the lighting decision; in MANUAL mode, the user can remotely control the lamp through Blynk.
