@@ -30,8 +30,7 @@ ESP32 ↔ Wi-Fi ↔ Blynk Cloud → Monitoring / Manual Override
 
 **Live Demo Video 👇👇**
 
-https://youtu.be/ZFBkcDMe2nc?si=Eg5Db_IkmxV2wtVp
-
+https://youtu.be/aqz-LQ7ug8c
 
 
 
